@@ -12,5 +12,5 @@ plt.yticks([0,0.2,0.4,0.6,0.8,1])
 plt.plot(data. data**2) #添加y = x^2曲线
 plt.plot(data. data**4) #添加y = x^4曲线
 plt.legend(['y=x^2','y=x^4'])
-# plt.savefig('D:\y=x^2.png')
+plt.savefig('y=x^2.png')
 plt.show()
